@@ -118,7 +118,7 @@ git clone https://github.com/walzimmer/3d-bat.git & cd 3d-bat
 conda create -n 3d-bat python==3.11.3
 conda activate 3d-bat
 pip install -r requirements.txt
-conda install -c conda-forge nodejs==10.13.0
+conda install -c conda-forge nodejs==10.15.3 puremagic mayavi
 ```
 #### 4. Install required node packages:
 ```shell
